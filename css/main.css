@@ -667,7 +667,30 @@ a {
   background-size: 200% 100%;
   background-position: right bottom;
 }
+.clicem{
+  display: block;
+  text-decoration: none;
+  border: 3px solid transparent;
+  width: fit-content;
+  padding: 8px 80px;
+  margin: 30px auto;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.3s;
+  color: white;
+  user-select: none;
+  border-color: #f77c03;
+  background: linear-gradient(to right, #333 50%, #f77c03 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
 .testmol .takem:hover a {
+  background-position: left bottom;
+  color: white;
+}
+.btt:hover a {
   background-position: left bottom;
   color: white;
 }
