@@ -570,7 +570,7 @@ a {
 .testmol .name h2 {
   font-size: large;
   position: relative;
-  left: 24%;
+  left: 23%;
   top: 15px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -635,7 +635,8 @@ a {
   color: white;
 }
 .testmol .content-bod .ga {
-  width: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   margin-top: -30px;
   display: block;
