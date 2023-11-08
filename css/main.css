@@ -579,6 +579,22 @@ a {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+@media (max-width:477px) {
+  .testmol .name h2 {
+    font-size: large;
+    position: relative;
+    left: 23%;
+    top: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 45px;
+}
+  
+}
 .rateYo {
   left: -40px !important;
 }
@@ -639,6 +655,7 @@ a {
   height: 70px;
   border-radius: 50%;
   margin-top: -30px;
+  margin-left: 5px;
   display: block;
   border: 2px solid var(--main-back);
 }
