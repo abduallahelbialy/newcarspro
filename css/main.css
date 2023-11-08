@@ -492,6 +492,7 @@ a {
     clip-path: polygon(0 0, 0 97%, 13% 97%);
     display: none;
   }
+  
 }
 @media (max-width: 768px) {
   .testmol .clio {
@@ -569,7 +570,7 @@ a {
 .testmol .name h2 {
   font-size: large;
   position: relative;
-  left: 26%;
+  left: 24%;
   top: 15px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -627,9 +628,11 @@ a {
   }
 }
 
-.testmol .content-bod:hover {
+.testmol .content-bod:hover,
+.yemk:hover {
   transform: translateY(-10px);
   background-color: var(--main-back);
+  color: white;
 }
 .testmol .content-bod .ga {
   width: 50px;
